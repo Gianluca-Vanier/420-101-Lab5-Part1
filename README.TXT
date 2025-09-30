@@ -28,3 +28,9 @@ The purpose of this project is to demonstrate and study library classes, such
 as ArrayList, HashMap, HashSet, and Random.
 
 This project is only a first, rudimentary step towards the full solution.
+
+
+QUESTIONS
+
+15. ----
+

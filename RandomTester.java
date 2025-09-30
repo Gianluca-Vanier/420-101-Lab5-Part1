@@ -32,4 +32,12 @@ public class RandomTester
             i++;
         }
     }
+    
+    public int throwDice(){
+        int number = rand.nextInt(6);
+        if(number == 0){
+            number++;
+        }
+        return number;
+    }
 }
