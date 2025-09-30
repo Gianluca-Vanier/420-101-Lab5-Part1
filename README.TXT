@@ -32,5 +32,5 @@ This project is only a first, rudimentary step towards the full solution.
 
 QUESTIONS
 
-15. ----
+15. Any number between 0 and 100 (included)
 
