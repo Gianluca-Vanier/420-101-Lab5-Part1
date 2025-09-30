@@ -18,17 +18,18 @@ public class RandomTester
          rand = new Random();
     }
 
-    public void printOneRandom()
+    public void printOneRandom(int limit)
     {
-        int number = rand.nextInt(5);
+        int number = rand.nextInt(limit);
         System.out.println(number);
     }
     
     public void printMultiRandom(int limit, int howMany){
-        int number = rand.nextInt(limit);
         int i = 0;
         while(i < howMany){
+            int number = rand.nextInt(limit);
             System.out.println(number);
+            i++;
         }
     }
 }
