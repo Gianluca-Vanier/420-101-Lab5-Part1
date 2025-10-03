@@ -53,4 +53,14 @@ public class RandomTester
         String response = list.get(index);
         return response;
     }
+    
+    public void randomWithMaxAndMin(int max, int min){
+        if(min>max){
+            System.out.println("The minimum cannot be greater than the maxiumum");
+        }
+        else{
+            int number = rand.nextInt(max-min+1)+min;
+            System.out.println(number);
+        }
+    }
 }
