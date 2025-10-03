@@ -44,26 +44,13 @@ public class RandomTester
         return number;
     }
     
-    public void addResponses(){
-        list.add("yes");
-        list.add("no");
-        list.add("maybe");
+    public void addResponses(String response){
+        list.add(response);
     }
     
     public String getResponse(){
-        addResponses();
-        int number = rand.nextInt(3);
-        if(number==0){
-            String first = list.get(0);
-            return first;
-        }
-        if(number==1){
-            String second = list.get(1);
-            return second;
-        }
-        else{
-            String third = list.get(2);
-            return third;
-        }
+        int index = rand.nextInt(3);
+        String response = list.get(index);
+        return response;
     }
 }
