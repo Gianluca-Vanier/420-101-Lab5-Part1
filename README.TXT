@@ -29,8 +29,14 @@ as ArrayList, HashMap, HashSet, and Random.
 
 This project is only a first, rudimentary step towards the full solution.
 
+DISCLAIMER
+I accidently shared the music organizer project instead
+of the tech support to the repository. However,
+the RandomTester code is still relevant. Sorry.
 
 QUESTIONS
 
 15. Any number between 0 and 100 (included)
-
+21. Yes it can be used instead of random, although it depends on the app.
+    Secure random is good for randomly generated passwords.
+23. The random response selection will still work because it uses list.size.
