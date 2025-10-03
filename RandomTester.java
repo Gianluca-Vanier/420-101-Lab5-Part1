@@ -38,13 +38,13 @@ public class RandomTester
     
     public int throwDice(){
         int number = rand.nextInt(6);
-        if(number == 0){
+        if(number==0){
             number++;
         }
         return number;
     }
     
-    private void addResponses(){
+    public void addResponses(){
         list.add("yes");
         list.add("no");
         list.add("maybe");
@@ -53,9 +53,17 @@ public class RandomTester
     public String getResponse(){
         addResponses();
         int number = rand.nextInt(3);
-        if(number==1){
-            
+        if(number==0){
+            String first = list.get(0);
+            return first;
         }
-        return "String";
+        if(number==1){
+            String second = list.get(1);
+            return second;
+        }
+        else{
+            String third = list.get(2);
+            return third;
+        }
     }
 }
